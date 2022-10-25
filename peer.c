@@ -19,13 +19,11 @@ void* client_thread(void* server_fd);
 
 int main (int argc, char** argv) 
 {
-	/*
 	printf("Enter name: ");
 	scanf("%s", userName);
 
 	printf("Enter port: ");
 	scanf("%d", &PORT);
-	*/
 
 	int server_fd;
 	struct sockaddr_in server_address;
